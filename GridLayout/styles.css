@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    flex: 1 1 20%;
+    background-color: #00ffff;
+}
+
+.view {
+    flex: 1 1 80%;
+    background-color: #000;
+    padding-left: 10px;
+}
+
+.header {
+    background-color: #ff0000;
+    height: 10vh;
+}
+
+.content-wrap {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 90vh;
+}
+
+.right-sidebar {
+    background-color: #fff000;
+    flex-basis: 20%;
+}
+
+.footer {
+    background-color: #0000ff;
+    flex-basis: 80%;
+    height: 10vh;
+    margin-right: 10px;
+    align-self: end;
+}
